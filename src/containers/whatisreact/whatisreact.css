@@ -1,0 +1,176 @@
+.react_project_whatisreact {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: #323232;
+
+
+  background: -moz-linear-gradient(left, rgb(62, 94, 113) 0%, rgba(0, 38, 83, 1) 100%);
+
+
+  background: -webkit-linear-gradient(left, rgb(62, 94, 113) 0%, rgba(0, 38, 83, 1) 100%);
+
+
+  background: -o-linear-gradient(left, rgb(62, 94, 113) 0%, rgba(0, 38, 83, 1) 100%);
+
+  background: -ms-linear-gradient(left, rgb(62, 94, 113) 0%, rgba(0, 38, 83, 1) 100%);
+
+
+  background: linear-gradient(to right, rgb(62, 94, 113) 0%, rgba(0, 38, 83, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.react_project_whatisreact-feature {
+    display: flex;
+}
+
+/* Customizing feature component as per needs */
+.react_project_whatisreact-feature .reactp__features-container__feature {
+    margin: 0;
+}
+
+/* Customizing feature component as per needs */
+.react_project_whatisreact-feature .reactp__features-container_feature-text {
+    max-width: 700px;
+}
+
+.react_project_whatisreact-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 4rem 0 2rem;
+}
+
+.react_project_whatisreact-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+
+.react_project_whatisreact-heading a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.dialog-content{
+    background-color: var(--color-bg);
+    display: flex;
+    animation: popup-in 0.5s ease forwards; /* Animation on open /
+  transform: scale(0.8); / Initial scale before animation */
+    opacity: 0;
+    gap: 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 60%;
+}
+
+.dialog-content button {
+    display: flex;
+    align-items: center;
+    background: transparent; border: none; cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.dialog-content button img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.dialog-content p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--color-text);
+}
+
+.react_project_whatisreact-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+.react_project_whatisreact-container .reactp__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.react_project_whatisreact-container .reactp__features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .react_project_whatisreact-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .react_project_whatisreact-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .react_project_whatisreact-feature .reactp__features-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .react_project_whatisreact-feature .reactp__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .react_project_whatisreact-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .react_project_whatisreact-container .reactp__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
+@keyframes popup-in {
+    from {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes popup-out {
+    from {
+      transform: scale(1);
+      opacity: 1;
+    }
+    to {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+  }

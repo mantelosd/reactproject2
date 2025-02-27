@@ -1,0 +1,82 @@
+.react_project-container_infocard {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    background: var(--color-footer);
+}
+
+.react_project-container_infocard-image {
+    width: 100%;
+    height: 100%;
+    background: var(--color-bg);
+}
+
+.react_project-container_infocard-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.react_project-container_infocard-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 1rem 1.5rem;
+    height: 100%;
+}
+
+.react_project-container_infocard-content h2,h4 {
+    font-family: var(--font-family);
+    font-size: 20.11px;
+    font-weight: 800;
+    line-height: 30.30px;
+    
+    color: #fff;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.react_project-container_infocard-content p {
+    font-family: var(--font-family);
+    font-size: 13.65px;
+        font-weight: 700;
+    line-height: 20px;
+
+    color: #fff;
+}
+
+
+.react_project-container_infocard-content p:last-child {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 550px) {
+    .react_project-container_infocard-content h2,h4 {
+        font-size: 18px;
+        line-height: 25p;
+    }
+}
+.dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .dialog-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
