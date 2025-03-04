@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactproject2/static/css/main.5bdc2554.css",
-    "main.js": "/reactproject2/static/js/main.2dd4f2f9.js",
+    "main.css": "/reactproject2/static/css/main.474d8d94.css",
+    "main.js": "/reactproject2/static/js/main.4b379eee.js",
     "static/media/blog01.png": "/reactproject2/static/media/blog01.cefc0932eae0d33a0342.png",
     "static/media/stage-feature.png": "/reactproject2/static/media/stage-feature.a9fbe8d128426350a6ce.png",
     "static/media/blog03.png": "/reactproject2/static/media/blog03.d922323861096f25274f.png",
@@ -27,11 +27,11 @@
     "static/media/react-2.svg": "/reactproject2/static/media/react-2.e68b35f4774979ae220b1d5d7b345b00.svg",
     "static/media/white-close.svg": "/reactproject2/static/media/white-close.cab707eb01df088012a6700859ce85b4.svg",
     "index.html": "/reactproject2/index.html",
-    "main.5bdc2554.css.map": "/reactproject2/static/css/main.5bdc2554.css.map",
-    "main.2dd4f2f9.js.map": "/reactproject2/static/js/main.2dd4f2f9.js.map"
+    "main.474d8d94.css.map": "/reactproject2/static/css/main.474d8d94.css.map",
+    "main.4b379eee.js.map": "/reactproject2/static/js/main.4b379eee.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bdc2554.css",
-    "static/js/main.2dd4f2f9.js"
+    "static/css/main.474d8d94.css",
+    "static/js/main.4b379eee.js"
   ]
 }
