@@ -1,0 +1,54 @@
+  .camera-container {
+    width: 20%;
+    background-color: black;
+  }
+  
+  .camera {
+    position: relative;
+  }
+  
+  .result {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: 0.4s;
+  }
+  
+  .result.hasPhoto {
+    left: 0;
+  }
+  
+  video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .camerabutton {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+  
+    padding: 8px 16px;
+    background-image: linear-gradient(to right, #61DAFB 50%, #042c54 50%) ;
+    background-position: 0%;
+    background-size: 200%;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    transition: 0.4s;
+  }
+  .camerabutton:hover {
+    cursor: pointer;
+    background-position: 100%;
+  }
+  
+  canvas {
+    width: 50%;
+    height: auto;
+  }

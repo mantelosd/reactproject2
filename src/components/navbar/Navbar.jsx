@@ -18,11 +18,8 @@ const Navbar = () => {
           <p><a href="#history">Ιστορία</a></p>
           <p><a href="#features">Πλεονεκτήματα</a></p>
           <p><a href="#blog">Δημοτικότητα</a></p>
-          <p><a href="#infoblog">Βήματα</a></p>
+          <p><a href="#stage">Στάδια</a></p>
         </div>
-      </div>
-      <div className="reactp__navbar-sign">
-        <button type="button">Log out</button>
       </div>
       <div className="reactp__navbar-menu">
         {toggleMenu
@@ -36,10 +33,7 @@ const Navbar = () => {
             <p><a href="#history">Ιστορία</a></p>
             <p><a href="#features">Πλεονεκτήματα</a></p>
             <p><a href="#blog">Δημοτικότητα</a></p>
-            <p><a href="#infoblog">Βήματα</a></p>
-          </div>
-          <div className="reactp__navbar-menu_container-links-sign">
-            <button type="button">Log out</button>
+            <p><a href="#stage">Στάδια</a></p>
           </div>
         </div>
         )}
